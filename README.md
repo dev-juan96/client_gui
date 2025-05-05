@@ -1,12 +1,22 @@
-# React + Vite
+# Client GUI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Este proyercto es el que el usuario final ve (frontend) por ende este almacena las vistas y acciones que el usuario tienen, este es una aplicaion de escritorio creada con ELECTRON y VITE
 
-Currently, two official plugins are available:
+## Prerequisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para garantizar el correcto funcionamiento de la aplicacion se debe tener instalado
 
-## Expanding the ESLint configuration
+*   Electron
+*   Vite (javascript, react)
+*   Node.js
+*   npm
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Ejecucion de la aplicacion
+
+Para la ejecucion de la palicacion se utiliza el comando "npm run electron-dev" en una terminal de CMD y no de PowerShell, tener en cuenta que vite por lo general se instala localmente y no global mente para que la ejecucion funcione.
+
+# Historico de cambios
+
+## 0.0.1
+
+*   Esta primera version solo es la instalacion y la primera ejecucion de la aplicacion para validar que inicie bien y muestre "Hola mundo"
